@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site C Cintos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mooli&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>C. Cintos comércio e confecções</h1>
+            <form>
+                <input type="search" placeholder="Busque no site">
+                <button type="submit">Pesquisar</button>
+            </form>
+        </div>
+        <div class="botao menu">
+            <button type="button">Abrir menu</button>
+        </div>
+        <nav>
+            <ul class="menu">
+                <li>
+                    Brasil
+                    <ul class="submenu">
+                        <li>
+                            <a href="#" >Lançamentos</a>
+                        </li>
+                        <li>
+                            <a href="#" >Sobre nós</a>
+                        </li>
+                        <li>
+                            <a href="#" >Fale conosco</a>
+                        </li>
+                        <li>
+                            <a href="#" >Faça parte da nossa equipe</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    França
+                    <ul class="submenu">
+                        <li>
+                            <a href="#" >Infantil</a>
+                        </li>
+                        <li>
+                            <a href="#" >Feminino</a>
+                        </li>
+                        <li>
+                            <a href="#" >Masculino</a>
+                        </li>
+                        <li>
+                            <a href="#" >Mais vendidos</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="clear"></div>
+        </nav>
+    </header>
+    <div class="conteudo">
+        <main>
+            <section>
+                <article class="noticia">
+                    <a href="#">
+                        <img src="imagens/paris-4563750_1280.jpg" alt="torre eiffel">
+                    </a>
+                </article>
+        </main>
+        <aside>
+            <h2>Sobre a Loja</h2>
+            <h3>
+                <p>
+                    Bem-vindo à C. Cintos comércio e confecções, onde criamos cintos que são verdadeiras obras de arte, expressando nossa paixão pela moda e qualidade.
+                </p> </br>
+                <p>
+                    Nossa história começa com um cearense determinado, cujo sonho de infância era morar em Paris, e agora ele realiza esse sonho ao lado de sua esposa, filhas, genros e netos.
+                    Começamos no Brasil, produzindo cintos de alta qualidade que conquistaram clientes exigentes que valorizam estilo e autenticidade. Nosso fundador decidiu levar nossa marca para Paris, o epicentro da moda, onde estamos hoje, no coração da Cidade Luz, onde a moda se reinventa a cada momento, acreditamos que a moda é uma forma de expressão pessoal, e cada cinto que criamos é uma peça única, feita com amor e atenção aos detalhes, priorizando autenticidade e qualidade. Estabelecidos em Paris, continuamos a inovar e aprimorar nossos produtos, trazendo a sofisticação parisiense para o Brasil e o mundo.
+                </p> </br>
+                <p>
+                    Obrigado por nos acompanhar nesta emocionante jornada! Aproveite para explorar nossa coleção de cintos excepcionais, criados com paixão e dedicação, e faça parte desse misto de elegância Brasil França.
+                </p>
+            </h3>
+        </aside>
+    </div>    
+    </section>
+    <section>
+        <h2>Produtos</h2>
+        <div class="produtos">
+            <article class="noticia">
+                <a href="#">
+                    <img src="imagens/5.jpg" alt="cinto infantil">
+                    <h3>
+                        Infantil
+                    </h3>
+                    <P>Cinto infantil mini flor diversas cores</P>
+                    <button type="submit">Adicionar ao carrinho</button>
+                </a>
+            </article>
+            <article class="noticia">
+                <a href="#">
+                    <img src="imagens/03.jpg" alt="cinto Feminino">
+                    <h3>
+                        Feminino
+                    </h3>
+                    <P>Cinto de couro trançado  cor  bege</P>
+                    <button type="submit">Adicionar ao carrinho</button>
+                </a>
+            </article>
+            <article class="noticia">
+                <a href="#">
+                    <img src="imagens/6.jpg" alt="cinto Masculino">
+                    <h3>
+                        Masculino
+                    </h3>
+                    <P>Cinto duplo tecido duas cores</P>
+                    <button type="submit">Adicionar ao carrinho</button>
+                </a>
+            </article>
+            <article class="noticia">
+                <a href="#">
+                    <img src="imagens/01.jpg" alt="cinto de couro">
+                    <h3>
+                        Lançamentos
+                    </h3>
+                    <P>Cintos em couro liso fivela especial</P>
+                    <button type="submit">Adicionar ao carrinho</button>
+                </a>
+            </article>
+        </div>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function() {
+            $('.botao-menu button').click(function() {
+                $('.menu').slideToggle();
+            })
+        })
+    </script>
+</body>
+</html>
